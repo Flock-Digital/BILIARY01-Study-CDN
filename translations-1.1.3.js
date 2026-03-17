@@ -264,11 +264,11 @@ const TRANSLATIONS = {
 		error: "Incorrect password. Please try again."  
 	  },
 	  'hindi': {
-		title: "यदि आप इस अध्ययन में भाग लेना चुनते हैं तो क्या उम्मीद करें, यह जानें",
-		label: "कृपया अपना पासवर्ड दर्ज करें",
-		button_enter: "प्रवेश करें",
-		forgotten_password: "यदि आप अपना पासवर्ड <strong>याद नहीं कर सकते</strong>, तो कृपया अपने वॉलेट कार्ड को देखें या अपनी अध्ययन टीम से संपर्क करें।",
-		error: "Incorrect password. Please try again."  
+		title: "जानें कि इस अध्ययन में भाग लेने के विकल्प को चुनने पर आप क्या अपेक्षा कर सकते/सकती हैं",
+		label: "कृपया अपना पासवर्ड एंटर करें",
+		button_enter: "एंटर करें",
+		forgotten_password: "अगर आपको अपना पासवर्ड <strong>याद नहीं आ रहा है</strong> तो कृपया अपना वॉलेट कार्ड देखें या अपनी अध्ययन टीम से संपर्क करें।",
+		error: "गलत पासवर्ड। कृपया फिर से कोशिश करें।"  
 	  },
 	  'hungarian': {
 		title: "Tudja meg, mire számíthat, ha úgy dönt, hogy részt vesz ebben a vizsgálatban",
