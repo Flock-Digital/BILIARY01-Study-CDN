@@ -208,11 +208,11 @@ const TRANSLATIONS = {
 		error: "Incorrect password. Please try again."
 	  },
 	  'bengali': {
-		title: "আপনি এই গবেষণায় অংশ নিতে বেছে নিলে কী আশা করতে হবে তা জানুন",
-		label: "অনুগ্রহ করে আপনার পাসওয়ার্ড লিখুন",
-		button_enter: "প্রবেশ করুন",
-		forgotten_password: "যদি আপনি আপনার পাসওয়ার্ড <strong>মনে করতে না পারেন</strong>, অনুগ্রহ করে আপনার ওয়ালেট কার্ড দেখুন বা আপনার গবেষণা দলের সাথে যোগাযোগ করুন।",
-		error: "Incorrect password. Please try again."  
+		title: "এই অধ্যয়নে অংশগ্রহণ করার বিকল্প নির্বাচন করলে আপনি কী প্রত্যাশা করতে পারেন তা জেনে নিন ",
+		label: "অনুগ্রহ করে আপনার পাসওয়ার্ড এন্টার করুন",
+		button_enter: "এন্টার করুন",
+		forgotten_password: "যদি আপনি আপনার পাসওয়ার্ড <strong>মনে করতে পারছেন না</strong> তাহলে অনুগ্রহ করে আপনার ওয়ালেট কার্ড দেখুন কিংবা আপনার অধ্যয়ন দলের সাথে যোগাযোগ করুন।",
+		error: "ভুল পাসওয়ার্ড। অনুগ্রহ করে আবার চেষ্টা করুন।"  
 	  },
 	  'brazilian-portuguese': {
 		title: "Saiba o que esperar do estudo, se decidir participar",
