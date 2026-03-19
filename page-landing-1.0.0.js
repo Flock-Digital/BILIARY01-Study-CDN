@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	const currentPath = window.location.pathname;
 	const pathParts = currentPath.split('/').filter(part => part !== '');
 	const currentCountry = pathParts.length > 0 ? pathParts[0] : '';
-
+	const currentLanguage = pathParts.length > 1 ? pathParts[1] : '';
 	const storedLanguage = sessionStorage.getItem('selectedLanguage');
 
 	function capitalizeFirstLetter(string) {
@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
 		languageSelectMini.classList.remove('cc-hidden');
 	}
 
-	if (storedLanguage) {
+	const languageToUse = storedLanguage || currentLanguage;
+
+	if (languageToUse) {
 		const matchingItem = Array.from(languageListItems).find(item => {
 			const itemLanguage = item.getAttribute('data-language-select');
 			return itemLanguage && itemLanguage.toLowerCase() === storedLanguage.toLowerCase();
