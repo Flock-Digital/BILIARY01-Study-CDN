@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
+  function init() {
 	const loginContainer = document.querySelector('.cp-login-container');
 	const translationEnabled = typeof ALLOW_TRANSLATION !== 'undefined' && ALLOW_TRANSLATION === true;
 
@@ -102,4 +103,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	setupPasswordValidation();
 
-});
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
