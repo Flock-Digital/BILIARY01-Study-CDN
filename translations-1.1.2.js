@@ -603,25 +603,30 @@ const TRANSLATIONS = {
 	}	
 };
 
+const MULTI_LANGUAGE_COUNTRIES = ['in', 'us', 'ca', 'my', 'ph', 'sa'];
+
 const COUNTRY_DEFAULTS = {
-  'at': 'german',           // Austria
-  'fr': 'french',           // France
-  'de': 'german',           // Germany
-  'hu': 'hungarian',        // Hungary
-  'it': 'italian',          // Italy
-  'pl': 'polish',           // Poland
-  'es': 'spanish',          // Spain
-  'gb': 'english',       // United Kingdom
-  'tr': 'turkish',          // Turkey
-  'th': 'thai',             // Thailand
-  'hk': 'chinese-hk',       // Hong Kong
-  'br': 'brazilian-portuguese', // Brazil
-  'tw': 'chinese-tw',       // Taiwan
-  'jp': 'japanese',         // Japan
-  'in': 'hindi',       // India (default to English)
-  'us': 'english-us',       // United States
-  'ca': 'english',       // Canada (could be french-ca in some regions)
-  'kr': 'korean',           // South Korea
-  'vn': 'vietnamese',       // Vietnam
-  'au': 'english'        // Australia
+	'at': 'german',           // Austria
+	'fr': 'french',           // France
+	'de': 'german',           // Germany
+	'hu': 'hungarian',        // Hungary
+	'it': 'italian',          // Italy
+	'pl': 'polish',           // Poland
+	'es': 'spanish',          // Spain
+	'gb': 'english',       // United Kingdom
+	'tr': 'turkish',          // Turkey
+	'th': 'thai',             // Thailand
+	'hk': 'chinese-hk',       // Hong Kong
+	'br': 'brazilian-portuguese', // Brazil
+	'tw': 'chinese-tw',       // Taiwan
+	'jp': 'japanese',         // Japan
+	'in': 'hindi',       // India (default to English)
+	'us': 'english-us',       // United States
+	'ca': 'english',       // Canada (could be french-ca in some regions)
+	'kr': 'korean',           // South Korea
+	'vn': 'vietnamese',       // Vietnam
+	'au': 'english',        // Australia
+	'my': 'malay',
+	'sa': 'arabic',
+	'ph': 'tagalog'
 };
