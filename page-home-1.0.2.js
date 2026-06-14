@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
+  function init() {
 	const languageSelectMini = document.querySelector('.cp-language-select-mini');
 	const languageSelectMiniList = document.querySelector('.language-select-mini-list');
 	const languageTitle = document.getElementById('languageTitle');
@@ -303,4 +304,11 @@ document.addEventListener('DOMContentLoaded', function() {
 			updateButtonState();
 		}
 	}
-});
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
