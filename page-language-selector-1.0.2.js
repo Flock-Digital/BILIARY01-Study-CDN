@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
+  function init() {
 	const searchInput = document.getElementById('countryName');
 	const languageItems = document.querySelectorAll('.language-list-item');
 	const selectButton = document.getElementById('btn-select-language');
@@ -271,4 +272,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 	initialize();
-});
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
