@@ -1,4 +1,4 @@
-const MULTI_LANGUAGE_COUNTRIES = ['in', 'us', 'ca', 'my', 'ph', 'sa'];
+const MULTI_LANGUAGE_COUNTRIES = ['ca'];
 
 const COUNTRY_DEFAULTS = {
 	'au': 'english',              // Australia
